@@ -2,7 +2,6 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import img from "../assets/hero.svg";
-import Link from "react-scroll";
 
 export const HeroSection = () => {
   return (
@@ -33,18 +32,8 @@ export const HeroSection = () => {
                 repeat={Infinity}
               />
             </h1>
-            <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-              I'm currently pursuing my B.Tech in Computer Science and
-              Engineering from NIT Hamirpur.
-            </p>
             <br />
             <div>
-              {/* <Link
-              to="#about"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
-            >
-              Hire Me
-            </Link> */}
             </div>
           </motion.div>
           <motion.div
@@ -53,7 +42,7 @@ export const HeroSection = () => {
             transition={{ duration: 0.5 }}
             className="col-span-4 place-self-center mt-4 lg:mt-0"
           >
-            <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+            <div className="rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
               <img
                 src={img}
                 alt="hero"
