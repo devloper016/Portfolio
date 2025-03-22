@@ -7,8 +7,8 @@ export const education = [
     {
       id: 0,
       school: "National Institute of Technology, Hamirpur",
-      date: "Dec 2020 - Present",
-      grade: "8.96",
+      date: "Dec 2020 - May 2024",
+      grade: "8.84",
     },
     {
       id: 1,

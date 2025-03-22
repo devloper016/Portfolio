@@ -15,12 +15,12 @@ export const HeroSection = () => {
             className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
           >
             <h1 className="text-white mb-4 text-3xl sm:text-3xl lg:text-7xl lg:leading-normal font-extrabold">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-600">
+              <span className="bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-600">
                 Hello, I&apos;m Aditya{" "}
               </span>
               <br></br>
               <TypeAnimation
-                className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-500"
+                className="bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-500"
                 sequence={[
                   "Web Developer",
                   1000,

@@ -14,5 +14,7 @@ import react from "./images/react.png";
 import tailwind from "./images/tailwind.png";
 import typescript from "./images/Typescript.png";
 import next from "./images/Next.png";
+import Azure from "./images/Azure.png";
+import Flow from "./images/Flow.png";
 
-export {next,cpp,css,express,git,html,javascript,firebase,github,linux,mongodb,nodejs,python,react,tailwind,typescript}
+export {next,cpp,css,express,git,html,javascript,firebase,github,linux,mongodb,nodejs,python,react,tailwind,typescript,Azure,Flow}

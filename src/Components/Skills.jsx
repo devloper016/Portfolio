@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {next,cpp,css,express,git,html,javascript,firebase,github,linux,mongodb,nodejs,python,react,tailwind,typescript} from '../assets/Imagemodule'
+import {next,cpp,css,express,git,html,javascript,firebase,github,linux,mongodb,nodejs,python,react,tailwind,typescript,Azure,Flow} from '../assets/Imagemodule'
 
 import { Fade } from "react-awesome-reveal";
 
@@ -78,12 +78,12 @@ const Skills = () => {
               <p className="my-4 group-hover:text-violet-700">Git</p>
             </div>
             <div className="group shadow-md shadow-[#040c16] hover:shadow-violet-700 hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={github} alt="github" />
-              <p className="my-4 group-hover:text-violet-700">Github</p>
+              <img className="w-20 mx-auto" src={Azure} alt="github" />
+              <p className="my-4 group-hover:text-violet-700">Azure</p>
             </div>
             <div className="group shadow-md shadow-[#040c16] hover:shadow-violet-700 hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={linux} alt="linux" />
-              <p className="my-4 group-hover:text-violet-700">Linux</p>
+              <img className="w-20 mx-auto" src={Flow} alt="linux" />
+              <p className="my-4 group-hover:text-violet-700">Flow</p>
             </div>
           </div>
         </div>

@@ -28,9 +28,9 @@ const About = () => {
             <div className="padin">
               <p>
                 I am a full-stack developer with a passion for building web
-                applications and learning new technologies. I am currently
-                pursuing my B.Tech in Computer Science and Engineering from
-                National Institute of Technology, Hamirpur. My hobbies are:
+                applications and learning new technologies. I have completed
+                B.Tech in Computer Science and Engineering from
+                National Institute of Technology Hamirpur and currently working in MAQ Software. My hobbies are:
                 <ul>
                   <li>
                     {" "}
